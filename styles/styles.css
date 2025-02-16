@@ -5,12 +5,13 @@
     --primary-color:#e8f3f5;
     --secondary-color:#0b2314;
     --highlight-color:#37a630;
+    --background-color: rgb(7, 19, 12) ;
     --text-color: #9eb0a2;
     --primary-font: "Domine", serif;
 }
 
 body{
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
     font: var(--primary-font);
     display: flex;
     flex-direction: column;

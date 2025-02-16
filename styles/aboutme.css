@@ -38,7 +38,7 @@
     color: var(--primary-color);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 0px 16px 0px  rgba(158, 176, 162, 0.75);
 }
 
 .about-me__section h2 {
