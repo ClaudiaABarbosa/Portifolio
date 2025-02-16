@@ -1,6 +1,16 @@
+:root{
+
+    --primary-color:#e8f3f5;
+    --secondary-color:#0b2314;
+    --highlight-color:#37a630;
+    --text-color: #9eb0a2;
+    --primary-font: "Domine", serif;
+}
+
+
 .about-me {
     padding: 5% 10%;
-    background-color: #f8f9fa;
+    background-color: var(--primary-color);
     text-align: center;
     margin: 2.5%;
     border-radius: 10px;
@@ -8,13 +18,13 @@
 
 .about-me__title {
     font-size: 2.5rem;
-    color: #1E1E2E;
+    color: var(--secondary-color);
 }
 
 .about-me__intro {
     font-size: 1.3rem;
     margin-bottom: 30px;
-    color: #444;
+    color: var(--secondary-color);
 }
 
 .about-me__grid {
@@ -24,14 +34,15 @@
 }
 
 .about-me__section {
-    background: white;
+    background: var(--secondary-color);
+    color: var(--primary-color);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-me__section h2 {
-    color: #22D4FD;
+    color: var(--highlight-color);
     font-size: 1.5rem;
 }
 
