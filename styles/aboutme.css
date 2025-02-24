@@ -45,7 +45,10 @@
     color: var(--highlight-color);
     font-size: 1.5rem;
 }
-
+.about-me__more{
+    color: var(--text-color);
+    text-decoration: none;
+}
 .about-me__section ul {
     list-style-type: none;
     padding: 0;
